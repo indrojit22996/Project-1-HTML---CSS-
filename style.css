@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+/* ***************************
+   Hero Section
+**************************** */
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1673005583473-0be72ad34a1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0OHxGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=2000&q=60);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  color: #ffffff;
+  padding-left: 75px;
+  font-size: 24px;
+}
+.manu {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.twonav_nav {
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  justify-content: flex-end;
+  align-self: center;
+
+  padding: 20px 5px;
+}
+.last {
+  margin-right: 100px;
+}
+/* ***************************
+   Hero Section Text Content
+**************************** */
+
+.heading {
+  text-align: center;
+  font-size: 75px;
+  color: #ffffff;
+  margin-top: 250px;
+  margin-bottom: 24px;
+}
+.heading-text {
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.hero_icon {
+  border: 3px solid white;
+  stroke: #ffffff;
+  fill: #ffffff;
+  height: 30px;
+  width: 30px;
+  padding: 10px 24px;
+  background-color: #3b5bdb;
+  margin-top: 200px;
+  margin-bottom: 75px;
+  border-radius: 5px;
+}
+.hero_icon_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ***************************
+     Section What We Do
+**************************** */
+
+.what_we_do {
+  margin-bottom: 105px;
+}
+.what_we_do_heading {
+  color: #3b5bdb;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  font-size: 48px;
+}
+.what_we_do_para {
+  margin-left: 75px;
+  margin-bottom: 48px;
+  font-size: 24px;
+}
+.what_we_do_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 148px;
+}
+.grid_icon {
+  height: 40px;
+  width: 40px;
+  stroke: #3b5bdb;
+  position: absolute;
+}
+.grid_heading {
+  position: relative;
+  left: 70px;
+  color: #3b5bdb;
+}
+.grid_para {
+  margin-left: 70px;
+  width: 400px;
+  margin-top: 18px;
+  margin-bottom: 48px;
+}
+.butten {
+  text-decoration: none;
+  margin-left: 75px;
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: #3b5bdb;
+  border-radius: 5px;
+}
+/* ***************************
+     Section Testimonials
+**************************** */
+.Testimonials {
+  background-color: #9eaf2061;
+  background: url(https://images.unsplash.com/photo-1674338340494-a13b6400e7dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5OXxGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=2000&q=60);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.Testimonials_heading {
+  text-align: center;
+  padding-top: 98px;
+  margin-bottom: 24px;
+  font-size: 48px;
+  color: #ffffff;
+}
+.Testimonials_para {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 48px;
+  font-size: 18px;
+}
+.testimonil_grid {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 250px;
+  margin-right: 150px;
+}
+
+.testimonil_grid_img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  border: 1px solid #ffffff;
+}
+.testimonial_grid_pata {
+  width: 350px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.auther_name {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 24px;
+  color: #ffffff;
+}
+.testimonil_icon {
+  height: 50px;
+  width: 100px;
+  stroke: #ffffff;
+  margin-left: 800px;
+  left: 50px;
+  margin-bottom: 78px;
+  margin-top: 48px;
+}
+/* ***************************
+      Gallery Section
+**************************** */
+.gallery_heading {
+  text-align: center;
+  margin-top: 78px;
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: #3b5bdb;
+}
+.gallery_para {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 78px;
+}
+.gallery_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  margin-bottom: 108px;
+}
+.gallery_img {
+  height: 380px;
+  width: 280px;
+}
+/* ***************************
+      Contact Section
+**************************** */
+.contact {
+  background: url(https://images.unsplash.com/photo-1674068331911-555750338b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI3N3xGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=2000&q=60);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.contact_heading {
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 78px;
+  margin-bottom: 24px;
+}
+.contact_para {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+.contact_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 78px;
+}
+.form {
+  margin-left: 336px;
+}
+input::placeholder {
+  color: #ffffff;
+}
+.input {
+  display: block;
+  width: 400px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+.input_massage {
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+.submit_btn {
+  margin-left: 0px;
+  margin-bottom: 78px;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 78px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.footer_icon {
+  height: 50px;
+  width: 50px;
+  stroke: #ffffff;
+  margin-bottom: 36px;
+}
+.footer_grid {
+  display: grid;
+  grid-template-columns: 100px 120px;
+  justify-content: start;
+  align-items: center;
+  margin-left: 48px;
+}
+.icon_note {
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+/* *****************************************
+            Responship
+******************************************** */
+
+/* *****************************************
+                For Mobile
+******************************************** */
+@media only screen and(max-width:600px) {
+  .hero {
+    height: 70vh;
+    width: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.logo {
+  color: #ffffff;
+
+}
+.manu {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 4px;
+}
+
+.twonav_nav {
+
+}
+.last {
+  margin-right: 100px;
+}
+}
+
+
+
+
+
+
+/* @media only screen and(min-width:601px) {
+  .hero {
+    height: 100vh;
+    width: 100vw;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+  }
+}
+ */
